@@ -24,7 +24,7 @@ const Types = () =>{
                 <div
                     key={item.title}
                     onClick={() => handleClick(item.title)}
-                    className={'h-11 px-6 cursor-pointer font-medium flex items-center border justify-center text-[17px]${item.active ? "bg-title text-white border-title" : "bg-white text-disabled border-gray-300"}'}
+                    className={'h-11 px-6 cursor-pointer font-medium flex items-center border justify-center text-[17px]${item.active ? "bg-title text-black border-title" : "bg-black text-disabled border-gray-300"}'}
                 >
                     {item.title}
                 </div>
