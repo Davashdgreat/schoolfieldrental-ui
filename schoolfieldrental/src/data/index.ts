@@ -123,7 +123,6 @@ export const links = [
 	{ title: "Booking", path: "/" },
 	{ title: "About", path: "/" },
 	{ title: "Fields", path: "/" },
-	{ title: "Blog", path: "/" }, /*remove this*/
 	{ title: "Contact", path: "/" },
 ];
 

@@ -5,6 +5,7 @@ import Types from "./components/Types"
 
 const App = () =>{
   return(
+    
     <div className="full flex flex-col">
       <Header />
       <Steps />
