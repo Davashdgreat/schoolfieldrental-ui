@@ -1,10 +1,18 @@
-import react from 'react'
+import Brands from "./components/Brands"
+import Header from "./components/Header/index"
+import Steps from "./components/Steps"
+import Types from "./components/Types"
 
 const App = () =>{
   return(
-    <div>
-      <h1>Hello, World!</h1>
+    <div className="full flex flex-col">
+      <Header />
+      <Steps />
+      <Brands />
+      <Types />
+      <div className="w-full h-[500px]"></div>
     </div>
+    
   )
 }
 
