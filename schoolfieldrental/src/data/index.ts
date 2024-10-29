@@ -56,14 +56,14 @@ export const brands = [
 ];
 
 export const types = [
-	{ title: "JEEP", price: "$29", image: t1 },
-	{ title: "MERCEDES", price: "$29", image: t2 },
-	{ title: "BMW", price: "$29", image: t3 },
-	{ title: "HYUNDAI", price: "$29", image: t4 },
-	{ title: "MERCEDES", price: "$29", image: t5 },
-	{ title: "FORD", price: "$29", image: t6 },
-	{ title: "FORD", price: "$29", image: t7 },
-	{ title: "BMW", price: "$29", image: t8 },
+	{ title: "CLUBFIELD", price: "₦500,000", image: t1 },
+	{ title: "STANDARD", price: "₦600,000", image: t2 },
+	{ title: "COMPETITION", price: "₦500,000", image: t3 },
+	{ title: "OPEN", price: "₦400,000", image: t4 },
+	{ title: "WIDE", price: "₦300,000", image: t5 },
+	{ title: "KIDS", price: "₦400,000", image: t6 },
+	{ title: "CLEAR", price: "₦500,000", image: t7 },
+	{ title: "OPEN", price: "₦600,000", image: t8 },
 ];
 
 export const plans = [
