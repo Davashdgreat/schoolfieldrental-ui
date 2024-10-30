@@ -3,7 +3,7 @@ import Header from "./components/Header/index"
 import Steps from "./components/Steps"
 import Types from "./components/Types"
 import Banner from "./components/Banner"
-import Plans from "./components/Plans"
+import Footer from "./components/Footer"
 
 const App = () =>{
   return(
@@ -14,8 +14,8 @@ const App = () =>{
       <Brands />
       <Types />
       <Banner />
-      <Plans />
-      <div className="w-full h-[500px]"></div>
+      <Footer />
+      <div className="w-full"></div>
     </div>
     
   )
