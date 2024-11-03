@@ -1,28 +1,45 @@
 import logo from "../../assets/logo.svg";
 import bg from "../../assets/images/bg.png";
-import { links, selects } from "../../data";
+import { links, selects, ulink } from "../../data";
 
 const Header = () => {
 	return (
 		<div className="w-full lg:h-screen flex flex-col">
-			<div className="w-full h-[75px] lg:px-[310px] px-5 flex items-center justify-between">
-				<img
+			<div className="w-full h-[75px] lg:px-[310px] flex items-center justify-between">
+				<div className="flex-shrink-0">
+					<img
 					src={logo}
 					alt="logo"
-				/>
-				<div className="hidden lg:flex items-center gap-10">
+					className="h-full"
+					/>
+				</div>
+
+				<div className="hidden lg:flex items-center gap-10 justify-center">
 					{links.map((item) => (
-						<a
-							href={item.path}
-							key={item.title}
-							className="text-secondary"
-						>
-							{item.title}
-						</a>
+					<a
+						href={item.path}
+						key={item.title}
+						className="text-secondary"
+					>
+						{item.title}
+					</a>
+					))}
+				</div>
+
+				<div className="hidden lg:flex items-center gap-10 justify-end">
+					{ulink.map((item) => (
+					<a
+						href={item.path}
+						key={item.title}
+						className="text-secondary"
+					>
+						{item.title}
+					</a>
 					))}
 				</div>
 			</div>
-			<div
+
+		<div
 				className="w-full lg:h-[calc(110vh-75px)] bg-cover bg-fit flex items-center justify-center flex-col lg:py-0 py-5"
 				style={{ backgroundImage: `url(${bg})` }}
 			>

@@ -26,8 +26,8 @@ import date from "../assets/images/date.svg";
 export const steps = [
 	{
 		id: "01",
-		title: "Preferred Field/Stadium",
-		description: "Choose according to your visual preference",
+		title: "Preferred Field",
+		description: "Choose according to visual preference",
 	},
 	{
 		id: "02",
@@ -36,13 +36,13 @@ export const steps = [
 	},
 	{
 		id: "03",
-		title: "Book Your Field/Stadium",
-		description: "Being the first to book your favourite comeswith it's perks",
+		title: "Rent Your Field",
+		description: "Being the first to rent your preferred comes with perks",
 	},
 	{
 		id: "04",
 		title: "Finish Process",
-		description: "Congras on succesfull booking!",
+		description: "Congras on succesfull renting!",
 	},
 ];
 
@@ -119,27 +119,31 @@ export const services = [
 ];
 
 export const links = [
-	{ title: "Home", path: "/" },
-	{ title: "Booking", path: "/" },
-	{ title: "About", path: "/" },
-	{ title: "Fields", path: "/" },
-	{ title: "Contact", path: "/" },
+	{ title: "Home", path: "#" },
+	{ title: "Fields", path: "../Pages/Fields/index.tsx" },
+	{ title: "Schools", path: "/" },
+	{ title: "Agents", path: "/" },
+];
+
+export const ulink = [
+	{ title: "Login", path: "/" },
+	{ title: "Sign Up", path: "/" },
 ];
 
 export const selects = [
 	{ title: "Field Type", icon: vt, options: ["Select Field Type", "Sand", "Grass", "Standard"] },
 	{
-		title: "Picking Up Location",
+		title: "Location",
 		icon: loc,
 		options: ["Where in Ibadan", "Bodija", "Mokola", "Gate"],
 	},
 	{
-		title: "Picking Up Date",
+		title: "Start Date",
 		icon: date,
 		options: ["Today", "Tommorow", "Next Week"],
 	},
 	{
-		title: "Returning Date",
+		title: "End Date",
 		icon: date,
 		options: ["Tommorow", "Today", "Next Week"],
 	},

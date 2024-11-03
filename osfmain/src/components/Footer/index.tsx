@@ -24,31 +24,41 @@ const Footer = () => {
 						mass.
 					</p>
 					<div className="flex items-center gap-6 mt-5">
-						<img
-							src={facebook}
-							alt="facebook"
-							className="cursor-pointer"
-						/>
-						<img
-							src={twitter}
-							alt="twitter"
-							className="cursor-pointer"
-						/>
-						<img
-							src={ig}
-							alt="ig"
-							className="cursor-pointer"
-						/>
-						<img
-							src={linkedin}
-							alt="linkedin"
-							className="cursor-pointer"
-						/>
-						<img
-							src={youtube}
-							alt="youtube"
-							className="cursor-pointer"
-						/>
+						<a href="">
+							<img
+								src={facebook}
+								alt="facebook"
+								className="cursor-pointer"
+							/>
+						</a>
+						<a href="">
+							<img
+								src={twitter}
+								alt="twitter"
+								className="cursor-pointer"
+							/>
+						</a>
+						<a href="">
+							<img
+								src={ig}
+								alt="ig"
+								className="cursor-pointer"
+							/>
+						</a>
+						<a href="">
+							<img
+								src={linkedin}
+								alt="linkedin"
+								className="cursor-pointer"
+							/>
+						</a>
+						<a href="https://www.youtube.com/@Learncityng">
+							<img
+								src={youtube}
+								alt="youtube"
+								className="cursor-pointer"
+							/>	
+						</a>
 					</div>
 				</div>
 				<div className="flex flex-col gap-5">
@@ -80,7 +90,7 @@ const Footer = () => {
 			</div>
 			<div className="w-full flex lg:flex-row flex-col items-center justify-between lg:py-0 py-5 lg:h-[80px] border-t border-[#5F5F5F] lg:px-[310px] px-5 gap-7">
 				<span className="text-gray-300 font-medium">
-					© Limo, All rights reserved - Developed by AFT Solutions
+					© AFT, All rights reserved - Developed by AFT Solutions
 				</span>
 				<div className="hidden lg:flex items-center gap-7">
 					{links.map((item) => (

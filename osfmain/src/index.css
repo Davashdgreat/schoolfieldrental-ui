@@ -15,8 +15,12 @@ body {
 }
 
 ::-webkit-scrollbar{
-  width: 9px;
-  height: 9px;
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 ::-webkit-scrollbar{
@@ -24,6 +28,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb{
+  background: transparent;
   background: #9e8464 !important;
   border-radius: 20px;
 }
