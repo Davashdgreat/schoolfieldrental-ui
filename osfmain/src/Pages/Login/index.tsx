@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 import Brands from "../../components/Brands";
 import Types from "../../components/Types";
 
-const Fields = () =>{
+const Login = () =>{
     return(
         <div className="full flex flex-col">
             <Header />
@@ -12,4 +12,4 @@ const Fields = () =>{
     )
 }
 
-export default Fields
+export default Login

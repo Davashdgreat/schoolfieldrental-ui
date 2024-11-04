@@ -119,15 +119,15 @@ export const services = [
 ];
 
 export const links = [
-	{ title: "Home", path: "#" },
-	{ title: "Fields", path: "../Pages/Fields/index.tsx" },
-	{ title: "Schools", path: "/" },
-	{ title: "Agents", path: "/" },
+	{ title: "Home", path: "/" },
+	{ title: "Fields", path: "../Pages/Fields/" },
+	{ title: "Schools", path: "../Pages/Schools" },
+	{ title: "Agents", path: "../Pages/Agents" },
 ];
 
 export const ulink = [
-	{ title: "Login", path: "/" },
-	{ title: "Sign Up", path: "/" },
+	{ title: "Login", path: "/Pages/Login" },
+	{ title: "Sign Up", path: "/Pages/Login" },
 ];
 
 export const selects = [
@@ -138,13 +138,8 @@ export const selects = [
 		options: ["Where in Ibadan", "Bodija", "Mokola", "Gate"],
 	},
 	{
-		title: "Start Date",
+		title: "Date",
 		icon: date,
 		options: ["Today", "Tommorow", "Next Week"],
-	},
-	{
-		title: "End Date",
-		icon: date,
-		options: ["Tommorow", "Today", "Next Week"],
 	},
 ];

@@ -1,6 +1,7 @@
 import logo from "../../assets/logo.svg";
 import bg from "../../assets/images/bg.png";
 import { links, selects, ulink } from "../../data";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
@@ -16,25 +17,25 @@ const Header = () => {
 
 				<div className="hidden lg:flex items-center gap-10 justify-center">
 					{links.map((item) => (
-					<a
-						href={item.path}
+					<Link
+						to={item.path}
 						key={item.title}
 						className="text-secondary"
 					>
 						{item.title}
-					</a>
+					</Link>
 					))}
 				</div>
 
 				<div className="hidden lg:flex items-center gap-10 justify-end">
 					{ulink.map((item) => (
-					<a
-						href={item.path}
+					<Link
+						to={item.path}
 						key={item.title}
 						className="text-secondary"
 					>
 						{item.title}
-					</a>
+					</Link>
 					))}
 				</div>
 			</div>

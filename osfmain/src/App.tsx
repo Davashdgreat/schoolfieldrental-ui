@@ -13,24 +13,20 @@ const App = () =>{
     <div className="full flex flex-col">
 
       <BrowserRouter>
-
+      <Header />
       <Routes>
-        <Route path="../Pages/Fields" element={<Fields />} />
-        <Route path="./Pages/Schools" element={<Schools />} />
-        <Route path="./Pages/Agents" element={<Agents />} />
+        <Route path="Pages/Fields" element={<Fields />} />
+        <Route path="Pages/Schools" element={<Schools />} />
+        <Route path="Pages/Agents" element={<Agents />} />
       </Routes>
-
-        <Header />
+       
         <Steps />
         <Banner />
         <Footer />
-   
 
       </BrowserRouter>
 
-        
-
-      <div className="w-full"></div>
+      {/* <div className="w-full"></div> */}
     </div>
     
   )
