@@ -6,6 +6,16 @@ import Fields from "./Pages/Fields"
 import Schools from "./Pages/Schools"
 import Agents from "./Pages/Agents"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { Navigate } from 'react-router-dom';
+import { useEffect } from "react"
+
+function RedirectToLogin() {
+  useEffect(() => {
+    window.location.href = "Login/Login.html";
+  }, []);
+  
+  return null; // Optionally, you can add a loading spinner or similar fallback UI here
+}
 
 const App = () =>{
   return(
@@ -18,15 +28,15 @@ const App = () =>{
         <Route path="Pages/Fields" element={<Fields />} />
         <Route path="Pages/Schools" element={<Schools />} />
         <Route path="Pages/Agents" element={<Agents />} />
-      </Routes>
-       
+        <Route path="Pages/Login" element={<RedirectToLogin />} />
+      </Routes>       
         <Steps />
         <Banner />
         <Footer />
 
       </BrowserRouter>
 
-      {/* <div className="w-full"></div> */}
+      <div className="w-full"></div>
     </div>
     
   )
