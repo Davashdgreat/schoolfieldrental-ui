@@ -28,7 +28,7 @@ const LoginForm: React.FC = () => {
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         required
-                        className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring focus:ring-blue-500"
+                        className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring focus:ring-green-400"
                     />
                 </div>
                 <div className="mb-4">
@@ -41,17 +41,17 @@ const LoginForm: React.FC = () => {
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         required
-                        className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring focus:ring-blue-500"
+                        className="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring focus:ring-green-400"
                     />
                 </div>
                 <button
                     type="submit"
-                    className="w-full bg-blue-500 text-white font-semibold py-2 rounded-md hover:bg-blue-600 transition duration-200"
+                    className="w-full bg-green-400 text-white font-semibold py-2 rounded-md hover:bg-green-600 transition duration-200"
                 >
                     Login
                 </button>
                 <p className="mt-4 text-center text-sm text-gray-600">
-                    Don't have an account? <a href="#" className="text-blue-500 hover:underline">Sign up</a>
+                    Don't have an account? <a href="#" className="text-green-500 hover:underline">Sign up</a>
                 </p>
             </form>
         </div>
